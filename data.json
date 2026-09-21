@@ -1,0 +1,58 @@
+{
+    "school": {
+        "name": "NEXORA SCHOOL",
+        "location": "Kigali, Rwanda",
+        "email": "info@nexoraschool.rw",
+        "phone": "+250 788 000 000"
+    },
+
+    "students": [
+        {
+            "id": 1,
+            "name": "Student User",
+            "program": "Information Technology",
+            "year": 3,
+            "gpa": 3.72
+        },
+
+        {
+            "id": 2,
+            "name": "Jean Claude",
+            "program": "Software Engineering",
+            "year": 2,
+            "gpa": 3.45
+        }
+    ],
+
+    "programs": [
+        {
+            "code": "IT",
+            "name": "Information Technology"
+        },
+
+        {
+            "code": "SE",
+            "name": "Software Engineering"
+        },
+
+        {
+            "code": "IS",
+            "name": "Information Systems"
+        },
+
+        {
+            "code": "BA",
+            "name": "Business Administration"
+        },
+
+        {
+            "code": "ST",
+            "name": "Science & Technology"
+        },
+
+        {
+            "code": "CY",
+            "name": "Cybersecurity"
+        }
+    ]
+}
