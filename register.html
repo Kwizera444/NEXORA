@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>NEXORA SCHOOL | Registration</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="auth-page">
+
+<header class="site-header">
+
+<div class="container nav-container">
+
+<a href="index.html" class="logo">
+
+<span class="logo-icon">N</span>
+
+<span>
+NEXORA <small>SCHOOL</small>
+</span>
+
+</a>
+
+
+<nav>
+
+<ul class="nav-links">
+
+<li>
+<a href="index.html">Home</a>
+</li>
+
+<li>
+<a href="about.html">About</a>
+</li>
+
+<li>
+<a href="academics.html">Academics</a>
+</li>
+
+<li>
+<a href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<main class="auth-main">
+
+<div class="auth-card register-card">
+
+<div class="auth-logo">
+N
+</div>
+
+<h1>Create Account</h1>
+
+<p>
+Register for the NEXORA SCHOOL portal.
+</p>
+
+
+<form id="registerForm" novalidate>
+
+<div class="form-grid">
+
+
+<div class="form-group">
+
+<label for="registerFirstName">
+First Name *
+</label>
+
+<input
+type="text"
+id="registerFirstName"
+required
+minlength="2"
+placeholder="First name"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerLastName">
+Last Name *
+</label>
+
+<input
+type="text"
+id="registerLastName"
+required
+minlength="2"
+placeholder="Last name"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerEmail">
+Email *
+</label>
+
+<input
+type="email"
+id="registerEmail"
+required
+placeholder="Email address"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerPhone">
+Phone *
+</label>
+
+<input
+type="tel"
+id="registerPhone"
+required
+pattern="[0-9+\-\s]{10,15}"
+placeholder="+250 788 000 000"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerRole">
+Account Type *
+</label>
+
+<select id="registerRole" required>
+
+<option value="">
+Select account type
+</option>
+
+<option value="student">
+Student
+</option>
+
+<option value="admin">
+Administrator
+</option>
+
+</select>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerProgram">
+Program
+</label>
+
+<select id="registerProgram">
+
+<option value="">
+Select program
+</option>
+
+<option>
+Information Technology
+</option>
+
+<option>
+Software Engineering
+</option>
+
+<option>
+Information Systems
+</option>
+
+<option>
+Business Administration
+</option>
+
+<option>
+Science & Technology
+</option>
+
+<option>
+Cybersecurity
+</option>
+
+</select>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="registerPassword">
+Password *
+</label>
+
+<input
+type="password"
+id="registerPassword"
+required
+minlength="6"
+placeholder="Minimum 6 characters"
+>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="confirmPassword">
+Confirm Password *
+</label>
+
+<input
+type="password"
+id="confirmPassword"
+required
+minlength="6"
+placeholder="Repeat password"
+>
+
+</div>
+
+</div>
+
+
+<div class="form-check">
+
+<input
+type="checkbox"
+id="registerTerms"
+required
+>
+
+<label for="registerTerms">
+I agree to the school's terms and conditions.
+</label>
+
+</div>
+
+
+<button
+type="submit"
+class="btn btn-primary full-button">
+
+Create Account
+
+</button>
+
+
+<p
+id="registerMessage"
+class="form-message">
+</p>
+
+</form>
+
+
+<p class="auth-link">
+
+Already have an account?
+
+<a href="login.html">
+Login
+</a>
+
+</p>
+
+</div>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
